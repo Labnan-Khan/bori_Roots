@@ -29,3 +29,13 @@ body{
     font-size: 17px;
     color: rgb(74, 74, 74);
 }
+
+
+@media (max-width:768px){
+    .startingPtag,.startingH1tag,.ptagAfterH1tag{
+        text-align: center;
+        width: 90%;
+        margin-top: 5px
+        
+    }
+}
