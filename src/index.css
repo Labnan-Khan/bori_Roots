@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.2;
+    list-style: none;
+}
+
+body{
+    background-color: #F5F2EC;
+    /* color: #0a291f; */
+}
+
+/* hedline */
+ .startingPtag{
+    font-size: 20px;
+    color: #1A5C42;
+}
+/* starting h1  */
+.startingH1tag{
+    font-size: 40px;
+    font-weight: 900;
+    color: #1A5C42;
+    /* width: 100%; */
+}
+/* main p after h1 */
+.ptagAfterH1tag{
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(74, 74, 74);
+}

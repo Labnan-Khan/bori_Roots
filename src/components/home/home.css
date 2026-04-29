@@ -1,0 +1,383 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+
+.home .heroSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.home .heroSec .heroleft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+
+.heroSec .heroleft .divBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.heroSec .heroleft .divBtn div{
+    background-color: #6B6459;
+    padding: 0px;
+    border: 1px solid #1A5C42;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    height: 50px;
+}
+
+.heroSec .heroleft .divBtn div:first-child{
+    background-color: rgb(42, 104, 45);
+}
+
+.home .heroSec .heroRight{
+    /* background-color: #1A5C42; */
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.heroSec .heroRight div{
+    width: 90%;
+    aspect-ratio: 3/4;
+    background-image: url(../../assets/oilBottle1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* shortStory */
+.home .shortStory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home .shortStory .sscardSec{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin-top: 50px;
+    /* background-color: #1A5C42; */
+    gap: 20px;
+}
+
+.shortStory .sscardSec .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #0B3D2E;
+    color: #a5a5a4;
+    font-size: 17px;
+    gap: 10px;
+}
+.shortStory .sscardSec .cards div{
+    background-color: #e4e4d6;
+    color: #0B3D2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+.shortStory .sscardSec .cards h3{
+    font-size: 20px;
+    color: #e4e4d6;
+}
+
+
+/* Collection */
+
+.home .Collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B3D2E;
+    width: 100%;
+    padding: 100px 0px;
+    color: rgb(164, 163, 163);
+}
+
+.Collection .startingPtag, .Collection .startingH1tag{
+    color: #e4e4d6;
+}
+
+.Collection .ptagAfterH1tag{
+    color: rgb(164, 163, 163);
+}
+.home .Collection .colProduct{
+    width: 80%;
+    padding: 20px 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "cItem1 cItem2"
+                        "cItem1 cItem3";
+    background-image: url(../../assets/olivieTree.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 50px;
+}
+
+.home .Collection .colProduct .colProd1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border: 3px solid #e4e4d68a;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    background-color: #e4e4d64f;
+    box-shadow: inset 0px 0px 30px #e4e4d6;
+    color: #0B3D2E;
+    gap: 10px;
+    grid-area: cItem1;
+}
+
+.Collection .colProduct .colProd1 .cp1img{
+    background-image: url(../../assets/oilBottle2.webp);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 3/3;
+    background-color: #e4e4d66f;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 10px;
+}
+
+.Collection .colProduct .colProd1 h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Collection .colProduct .colProd1 p{
+    font-size: 17px;
+    color: rgb(167, 166, 166);
+    font-weight: 700;
+}
+
+.Collection .colProduct .colProd1 .cp1footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.Collection .colProduct .colProd1 .cp1footer div{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #1A5C42;
+    overflow: hidden;
+}
+.home .Collection .colProd2{
+    grid-area: cItem2;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border: 3px solid #0B3D2E;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    background-color: #10453593;
+    box-shadow: inset 0px 0px 30px #035d42;
+    color: #e4e4d6;
+    gap: 20px;
+}
+.Collection .colProd2 .cp2Footer{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #e4e4d6;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.Collection .colProd2 .cp2Footer div{
+    /* background-color: #035d42; */
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.Collection .colProd2 .cp2Footer div span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+.home .Collection .colProd3{
+    grid-area: cItem3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    border: 3px solid #e4e4d68a;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    background-color: #e4e4d64f;
+    box-shadow: inset 0px 0px 30px #e4e4d6;
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+    gap: 10px;
+}
+
+.home .Collection .colProd3 h3{
+    color: #0B3D2E;
+    font-size: 25px;
+}
+
+.cp3Footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.cp3Footer .items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cp3Footer .items div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 2px;
+    gap: 5px;
+}
+.cp3Footer .items div span{
+    height: 4px;
+    width: 20px;
+    border-radius: 20px;
+    display: flex;
+    background-color: rgb(167, 166, 166);
+}
+
+.cp3Footer .items div span.filled{
+    background-color: #0B3D2E;
+}
+
+
+.home .landscap{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.home .landscap .landscapImgSec{
+    /* border: 1px solid black; */
+    width: 90%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.landscap .landscapImgSec .landscapImg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 3/3;
+    width: 100%;
+    box-shadow:inset 0px 0px 40px #0B3D2E;
+    border-radius: 20px;
+    border: 2px solid #0B3D2E;
+
+}
+
+.landscap .landscapImgSec .landscapImg:nth-child(1){
+    background-image: url(../../assets/landscapImg4.png);
+}
+.landscap .landscapImgSec .landscapImg:nth-child(2){
+    background-image: url(../../assets/landscapImg1.png);
+}
+.landscap .landscapImgSec .landscapImg:nth-child(3){
+    background-image: url(../../assets/landscapImg3.png);
+}
+.landscap .landscapImgSec .landscapImg:nth-child(4){
+    background-image: url(../../assets/landscapImg2.png);
+}
+
+.home .landscap .landscapBtn{
+    background-color: #483415;
+    height: 50px;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* begin your journey */
+.home .beginYJ{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home .beginYJ .byjBtn{
+    overflow: hidden;
+    height: 50px;
+    width: 300px;
+    background-color: #0B3D2E;
+    margin-top: 50px;
+    border-radius: 10px;
+}

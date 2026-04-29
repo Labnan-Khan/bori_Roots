@@ -1,0 +1,190 @@
+.testimonial{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+   
+    /* background-image: url(../testimonialShadow2.png); */
+    /* background-image: url(../testimonialShadow.png); */
+    background-size: 100% 120%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    
+
+    
+}
+
+.testiUSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    position: relative;
+    width:100%;
+    gap: 20px;
+    overflow: hidden;
+    /* box-sizing:content-box ; */
+    /*  */
+ 
+   /* box-shadow: inset 0px 0px 100px #8D1FD4; */
+
+
+    
+
+}
+
+@keyframes scrollTesti {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+    
+
+}
+
+.testiUSec .testiUSecH4{
+    font-size: 30px;
+    font-weight:600;
+    width: 90%;
+    text-align: center;
+}
+.testiUSec .testiUSecP1{
+    width: 90%;
+    text-align: center;
+}
+.testiBoxSec{
+    margin-top: 40px;
+    width: 100%;
+    /* display:flex ; */
+    gap: 6px;
+     /* animation: scrollTesti 4s linear infinite; */
+     /* background-color: #8D1FD4; */
+     overflow: hidden; /*add this*/
+     box-sizing: content-box;
+     
+     /* border: 1px solid white; */
+     
+}
+
+.testiTrack {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 6px;
+    width: max-content;
+    animation: scrollTesti 40s linear infinite;
+}
+
+
+.testiTrack:hover{
+    animation-play-state: paused;
+}
+
+.testiBoxSec .tBox{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    padding: 20px;
+    width: 200px;
+    gap: 20px;
+    background-color: #0b3d2e;
+    border-radius: 20px;
+    border: 2px solid #0B3D2E;
+    flex-shrink: 0;
+    box-sizing: content-box;
+    /* backdrop-filter: brightness(1.1) blur(20px)  saturate(100%); */
+    box-shadow: inset 0px 0px 30px #0B3D2E;
+    /* background-color: #8D1FD4; */
+    /* animation: scrollTesti 50s linear infinite; */
+}
+
+ 
+
+ 
+
+
+.tBox .tboxUpside{
+    width:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    color:yellow;
+    font-size: 20px;
+}
+
+.tBox .tboxDownSide{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+.tBox .tBoxMP{
+    color: rgb(167, 167, 167);
+}
+.tBox .tboxDownSide div{
+    background-color: rgb(4, 184, 22);
+    color: black;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+/* .VideoSec{
+    overflow:hidden ;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 72%;
+    z-index: -1;
+    padding: 10px 0px;
+    display: flex;
+    justify-content:center;
+    align-items: start;
+    pointer-events: none;
+} */
+
+/* .VideoSec video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+} */
+
+ @media (max-width:1000px) and (min-width:768px) {
+    .VideoSec{
+        width: 130%;
+    }
+ }
+
+ @media (max-width:768px){
+        .VideoSec{
+        width: 250%;
+        align-items: start;
+        padding: 0px;
+        bottom: 0px;
+    }
+    .testimonial{
+        background-image: none;
+        padding-bottom: 30px;
+    }
+
+    .testiTrack {
+    animation: scrollTesti 50s linear infinite;
+}
+ }
