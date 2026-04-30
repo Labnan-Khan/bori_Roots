@@ -71,6 +71,7 @@ function Navbar() {
         <ul className={`navLi ${(dropMenu)? " navLiM" : ""}`} onClick={ ()=>{ setClickMenu(!clickMenu); setDropMenu(!dropMenu)} }>
             <li>Home</li>
             <li>Projects</li>
+            <li>Discover</li>
             <li>Plan</li>
             {/* <li><Link to="/about" >About Us</Link></li> */}
             <li>Contact Us</li>
