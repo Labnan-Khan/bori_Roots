@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './brJournal.css'
 import brimg1 from '../../assets/landscapImg1.png'
 import brimg2 from '../../assets/landscapImg2.png'
 import { TiArrowLeftThick } from 'react-icons/ti'
 function BRJournal() {
-    const itemDetails = [ 
+    // Journal item array
+    const itemJournalDetails = [ 
                         {
                         cardImg: brimg1, cardHeading: "Balochistan Olive Oil Wins Silver at New York International Olive Oil Competition",
                             cardDate: "March 15, 2025", cardSource: "Source: Khaleej Times, Tribune.com.pk",
@@ -35,22 +36,73 @@ function BRJournal() {
                             cardDate: "October 12, 2024", cardSource: "Source: Lok Sujag",
                             cardPeraghaph: "The Balochistan government's continued support for olive cultivation includes the distribution of 2.46 million olive seedlings across the province and the Green Tractor Scheme providing 3,000 tractors at a 50% subsidy. These initiatives, combined with modern irrigation systems, cold storage facilities, and the introduction of 17 new olive varieties, have positioned Balochistan as a significant player in Pakistan's agricultural ...",
                             cardLink: ""}
-                    ]
+    ]
+
+    // acadmey item array
+    const itemAcadmeyDetails = [
+        {cardImg: brimg1, cardHeading: "Olive Varieties in Balochistan: Kalamata, Leccino, and Arbiquina",
+                            cardDate: "000", cardSource: "Source: International Network for Natural Sciences",
+                            cardPeraghaph: "Research conducted in Quetta, Balochistan evaluated five exotic olive cultivars under local climatic conditions. The study found that Kalamata cultivar exhibited the highest oil production at 21%, followed by Leccino at 20% and Arbiquina at 17%, making them ideal for cultivation in the region.",
+                            cardLink: ""},
+
+        {cardImg: brimg1, cardHeading: "Health Benefits of Extra Virgin Olive Oil: Fatty Acids and Phenolic Compounds",
+                            cardDate: "000", cardSource: "Source: PubMed, National Center for Biotechnology Information",
+                            cardPeraghaph: "Scientific research on Italian olive cultivars grown in Balochistan reveals high levels of beneficial fatty acids and phenolic compounds. These compounds contribute to cardiovascular health, antioxidant properties, and anti-inflammatory effects, making Balochistan olive oil a valuable addition to a healthy diet.",
+                            cardLink: ""},
+
+        {cardImg: brimg1, cardHeading: "Understanding Quality Standards: Loralai's 28% Oil Extraction Rate",
+                            cardDate: "000", cardSource: "Source: Lok Sujag",
+                            cardPeraghaph: "Loralai district in Balochistan has achieved an impressive oil extraction rate of 28 kilograms per 100 kilograms of olives, aligning with global standards. This demonstrates the region's capacity for producing premium extra virgin olive oil that meets international quality benchmarks.",
+                            cardLink: ""},
+
+        {cardImg: brimg1, cardHeading: "Balochistan Olive Oil Wins International Recognition",
+                            cardDate: "000", cardSource: "Source: Khaleej Times, Tribune.com.pk",
+                            cardPeraghaph: "In 2025, Balochistan's premium olive oil from Loralai district secured a Silver Award at the New York International Olive Oil Competition (NYIOOC), the world's most prestigious olive oil quality contest. This achievement highlights the exceptional quality and international standards achieved by Balochistan's olive cultivation.",
+                            cardLink: ""},
+
+        {cardImg: brimg1, cardHeading: "Olive Varieties in Loralai: Sorani and Kaissy Analysis",
+                            cardDate: "000", cardSource: "Source: International Knowledge Press",
+                            cardPeraghaph: "A comprehensive study in Loralai analyzed five olive varieties—Sorani, Carolea, Biancolilla, Koroneiki, and Kaissy. The Sorani variety demonstrated the highest oil content and yield, while Kaissy is recommended for dual purposes due to its larger fruit size and moderate oil production.",
+                            cardLink: ""},
+
+        {cardImg: brimg1, cardHeading: "The Evolution of Balochistan's Olive Industry: 20 Years of Growth",
+                            cardDate: "", cardSource: "Source: Lok Sujag",
+                            cardPeraghaph: "Over the past two decades, Balochistan's olive industry has transformed from experimental initiatives to a thriving commercial sector spanning 8,000 acres, producing 2,500 tonnes of olives valued at over Rs2.16 billion. Learn about the phases of development and government support initiatives.",
+                            cardLink: ""},
+
+    ]
+const [currentCategoryArrayItems, setCurrentCategoryArrayItems] = useState(itemJournalDetails)
+
 const [showFullArticalPage, setShowFullArticalPage] = useState(false)
 const [fullarticalD , setFullarticalD] = useState({cardImg: "", cardHeading: "",
                             cardDate: "", cardSource: "",
                             cardPeraghaph: "",
                             cardLink: ""})
+const [articalCategoreyBtn, setArticalCategoreyBtn] = useState("journal")
 
+useEffect(()=>{
+    if(articalCategoreyBtn == "journal"){
+        setCurrentCategoryArrayItems(itemJournalDetails)
+    }
+    else if(articalCategoreyBtn == "academy"){
+        setCurrentCategoryArrayItems(itemAcadmeyDetails)
+    }
+},[articalCategoreyBtn])
 
   return (
     <div className='brJournal'>
         <h1 className='startingH1tag'>Bori Roots Journal</h1>
         <p className='ptagAfterH1tag'>Stories, memories, and olive-growing wisdom from the heart of Balochistan.</p>
 
+        <div className='brCategaroBtnSec'>
+            <div className={`${articalCategoreyBtn == "journal"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("journal")}>BoriRoots Journal</div>
+            <div className={`${articalCategoreyBtn == "landscapes"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("landscapes")}>Balochistan Landscapes</div>
+            <div className={`${articalCategoreyBtn == "academy"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("academy")}>Olive Academy</div>
+        </div>
+
         <div className='brJournalCardSec'>
 
-            {itemDetails.map((item,index) => {
+            {currentCategoryArrayItems.map((item,index) => {
                 return (
 
                 <div className='brJournalCardSecItem' key={index}>
