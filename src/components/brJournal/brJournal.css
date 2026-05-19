@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
+    background-image: url(../../assets/oliveBGImg.avif);
+    background-position:top center;
+    background-size: cover;
 }
 
 .brJournal .brCategaroBtnSec{
@@ -23,7 +26,7 @@
 
 .brJournal .brCategaroBtnSec div{
     background: linear-gradient(to top left, #F5F2EC, #F5F2EC);
-    box-shadow:  0px 0px 10px black;
+    /* box-shadow:  0px 0px 10px black; */
     border: 2px solid white;
     padding: 10px;
     border-radius: 10px;
@@ -37,8 +40,9 @@
     
 }
 .brJournal .brCategaroBtnSec div.active{
-    background: linear-gradient(to top right, #012a1e, #05fcb2);
-    border: 2px solid black;
+    /* background: linear-gradient(to top right, #012a1e, #05fcb2); */
+    background: linear-gradient(to top right, #1A5C42, #1A5C42);
+    border: 2px solid rgba(255, 255, 255, 0.652);
     color: white;
 }
 .brJournal .brJournalCardSec{
@@ -49,11 +53,14 @@
     /* grid-template-rows: repeat(2, auto); */
     gap: 20px;
     padding: 20px;
+    /* background-image: url(../../assets/oliveBGImg.avif);
+    background-position: center;
+    background-size: cover; */
 }
 
 .brJournal .brJournalCardSec .brJournalCardSecItem{
-    background-color: #0b3d2ef2;
-    padding: 0px;
+    background-color: #01543b69;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,11 +70,14 @@
     color: #e4e4d6;
     overflow: hidden;
     transition: all 0.3s ease;
+    border: 2px solid #058a62;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0px 0px 30px #0b3d2e;
 }
 
 .brJournal .brJournalCardSec .brJournalCardSecItem:hover{
-    box-shadow:  0px 0px 30px black;
-    transform: scale(1.01);
+    /* box-shadow:  0px 0px 30px black; */
+    transform: scale(1.02);
     /* transition: all 0.3s ease; */
 }
 
@@ -80,6 +90,8 @@
     aspect-ratio: 12/9;
     /* border-radius: 20px; */
     overflow: hidden;
+    border-radius: 20px;
+    border: 2px solid #058a62;
 }
 
 .brJournal .brJournalCardSec .brJournalCardSecItem .cardSecItemDetails{
@@ -141,10 +153,13 @@
     transform: scale(0.5);
     opacity: 0;
     padding-top: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .gobackBtn{
-    color: rgba(255, 255, 255, 0.536);
+    color: black;
     position: fixed;
     top: 20px;
     left: 20px;
@@ -155,6 +170,7 @@
     align-items: center;
     padding: 0px;
     margin: 0px;
+    background-color: #0000000c;
     transition: all 0.3s ease;
 }
 .gobackBtn:hover{
@@ -175,7 +191,7 @@
 }
 
 .articalHeading{
-    color: #e4e4d6;
+    color: black;
     width: 90%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -184,6 +200,7 @@
     /* background-color: rgb(63, 61, 57); */
     width: 90%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -196,7 +213,7 @@
 }
 
 .articalDetails .articalImg{
-    width: 40%;
+    width: 90%;
     aspect-ratio: 12/9;
     height: auto;
     background-position: center;
@@ -205,6 +222,7 @@
     border-radius: 20px;
     position: relative;
     /* grid-area: articalItem1; */
+    display: none;
 }
 .articalDetails .articalImg::before{
     position: absolute;
@@ -217,27 +235,35 @@
     opacity: 1;
     z-index: -1;
     border-radius: 30px;
-    background-color: #e4e4d645;
+    background-color: #e4e4d638;
     border: 1px solid rgb(255, 255, 255);
 
 }
 .articalpSec{
-    width: 40%;
-    background-color: #e4e4d6a0;
+    width: 100%;
+    background-color: #0b3d2e69;
     padding: 20px;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid #0b3d2e;
+    backdrop-filter: blur(2px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     gap: 10px;
+    box-shadow: inset 0px 0px 100px #0b3d2e;
 }
 
+.articalpSec{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+}
 
 .articalDetails .articalSource{
     border-bottom: 1px solid white;
     padding-bottom: 10px;
+    width: 100%;
     /* grid-area: articalItem4; */
 }
 
@@ -257,7 +283,6 @@
 
     .articalDetails{
         width: 100%;
-        /* background-color: #06eea8; */
         flex-direction: column;
     }
     .articalDetails .articalImg{

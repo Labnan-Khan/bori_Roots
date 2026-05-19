@@ -1,0 +1,180 @@
+.shop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.shop .shopHeadingDiv{
+    width: 90%;
+    height: 400px;
+    /* border: 1px solid black; */
+    /* background-color: #d6d5d3; */
+    margin-top: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 90% 0%;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.shop .shopHeadingDiv .shopVideo{
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.shop .shopHeadingDiv .shopHeadRight h1{
+    text-align: start;
+}
+
+.shop .shopHeadingDiv .shopHeadRight div{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1A5C42;
+}
+
+.shop .shopHeadingDiv .shopHeadLeft{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/oilBottle2.webp);
+    background-position: center;
+    overflow: visible;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shop .shopCategory{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop .shopCategory div{
+     width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop .shopCategory div button{
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: none; */
+    background-color: #d6d5d3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #1A5C42;
+}
+
+.shop .shopCategory div button:hover{
+    color: white;
+    background-color: #1A5C42;
+}
+
+.shop .shopItemSec{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+ .shop .shopItemSec .shopItem{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: start;
+    gap: 5px;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.shop .shopItemSec .shopItem:hover{
+    /* background-color: #d6d5d3; */
+    box-shadow:  0px 0px 10px black;
+    transform: scale(1.05);
+}
+
+.shop .shopItemSec .shopItem .itemImg{
+    width: 100%;
+    background-color: #1A5C42;
+    background-image: url(../../assets/oilBottleImg.webp);
+    aspect-ratio: 9/9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.shop .shopItemSec .shopItem:hover .itemImg{
+    background-size: 105%;
+    /* box-shadow: inset 0px 0px 10px #013d25; */
+    transition: all 0.3s ease;
+}
+.shop .shopItemSec .shopItem .priceSec{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.shopItemSec .shopItem .priceSec h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shopItemSec .shopItem .priceSec p{
+    font-size: 17px;
+    font-weight: 100;
+    /* border: 1px solid #1A5C42; */
+    color: white;
+    background-color: #1A5C42;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.shop .shopItemSec .shopItem .shopAddToCardBtn{
+    width: 100%;
+    background-color: #1A5C42;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+
+
+@media (max-width:768px){
+    .shop .shopItemSec{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

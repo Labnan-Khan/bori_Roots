@@ -1,0 +1,115 @@
+
+.follUs{
+    width: 100%;
+    /* background-color: #8D1FD4; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url(../bgImg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.follUs h4{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    width: 90%;
+}
+
+.follUs .follUsP1{
+    color: rgb(197, 196, 196);
+    font-size: 18px;
+    font-weight: 100;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.follUs .follUsLogo{
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.follUsLogo .logoSec{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+    padding-right:10px ;
+}
+ 
+.follUsLogo .logoSec div{
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1A5C42;
+    /* border: 2px solid inherit; */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    box-sizing: content-box;
+}
+
+.follUsLogo .logoSec div:hover{
+    color: white;
+}
+
+.follUsLogo .logoSec .log1:hover{
+    background-color: black;
+}
+
+.follUsLogo .logoSec .log2:hover{
+    background-color: black;
+}
+
+.follUsLogo .logoSec .log3:hover{
+    background-color: red;
+}
+
+.follUsLogo .logoSec .log4:hover{
+    background-color: rgb(67, 67, 246);
+}
+
+.follUsLogo .logoSec .log5:hover{
+    background-color: #BD081C;
+}
+
+.follUsLogo .logoSec .log6:hover{
+    background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+    );
+}
+
+.follUsLogo .logoSec .log7:hover{
+     background: conic-gradient(from 70deg,red  ,yellow, blue, green );
+    
+}
+
+

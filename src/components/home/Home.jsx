@@ -3,11 +3,17 @@ import './home.css'
 import BRBtn from '../brButton/BRBtn'
 import { ImLeaf } from 'react-icons/im'
 import Testimonial from '../testimonial/Testimonial'
+import FollowUs from '../FollowUs/FollowUs'
+import herobgVideo1 from '../../assets/shopbgVideo2.mp4'
 function Home() {
   return (
     <div className='home'>
         {/* heroSection */}
         <div className='heroSec'>
+
+            <div className='herobgvideo'>
+                <video src={herobgVideo1} autoPlay muted loop ></video>
+            </div>
 
             <div className='heroleft'>
                 <p className='startingPtag'>Premium Collection</p>
@@ -155,7 +161,7 @@ function Home() {
 
         {/* testimonail */}
         
-
+        <FollowUs />
         <Testimonial />
 
         {/* begin your journey */}

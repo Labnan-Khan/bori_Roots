@@ -10,7 +10,10 @@ body{
     background-color: #F5F2EC;
     /* color: #0a291f; */
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /* hedline */
  .startingPtag{
     font-size: 20px;

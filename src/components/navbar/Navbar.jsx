@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import { RiMenuLine,  RiMenuUnfold4Line } from 'react-icons/ri';
 import { TbMenu3 } from 'react-icons/tb';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 function Navbar() {
     const [showNavbar, setShowNavbar] = useState(true)
     const [lastScroll, setLastScroll] = useState(0)
@@ -64,17 +64,18 @@ function Navbar() {
   return (
     <>
     <div className={`nav ${showNavbar ? "show" : "hide"}`} >
-        <div className='navName'>BORI ROOTS</div>
+        <div className='navName'><Link to="/">BORI ROOTS</Link></div>
         <div className='navMenu' onClick={ ()=>{ setClickMenu(!clickMenu); setDropMenu(!dropMenu)} }>{(!clickMenu)?<RiMenuLine /> :<TbMenu3 /> } </div>
         
     
         <ul className={`navLi ${(dropMenu)? " navLiM" : ""}`} onClick={ ()=>{ setClickMenu(!clickMenu); setDropMenu(!dropMenu)} }>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Discover</li>
-            <li>Plan</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/discover">ARTICALES</Link></li>
+            <li><Link to="/contact">CONTACT</Link></li>
+            <li><Link to="/shop">SHOP</Link></li>
             {/* <li><Link to="/about" >About Us</Link></li> */}
-            <li>Contact Us</li>
+            <li><Link to="/card">CARD</Link></li>
+            
         </ul>
     </div>
 
