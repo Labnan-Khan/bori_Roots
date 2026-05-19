@@ -5,6 +5,10 @@ import { ImLeaf } from 'react-icons/im'
 import Testimonial from '../testimonial/Testimonial'
 import FollowUs from '../FollowUs/FollowUs'
 import herobgVideo1 from '../../assets/shopbgVideo2.mp4'
+import { GiPalmTree, GiPlantSeed } from 'react-icons/gi'
+import { LuTreePalm } from 'react-icons/lu'
+import { LiaMountainSolid } from 'react-icons/lia'
+import { PiPlantBold } from 'react-icons/pi'
 function Home() {
   return (
     <div className='home'>
@@ -12,7 +16,7 @@ function Home() {
         <div className='heroSec'>
 
             <div className='herobgvideo'>
-                <video src={herobgVideo1} autoPlay muted loop ></video>
+                <video src={herobgVideo1} autoPlay muted loop playsInline></video>
             </div>
 
             <div className='heroleft'>
@@ -151,10 +155,32 @@ function Home() {
             <p className='ptagAfterH1tag'>Our olive groves are nestled in the breathtaking landscapes of Balochistan, where nature and tradition come together.</p>
 
             <div className='landscapImgSec'>
-                <div className='landscapImg'></div>
-                <div className='landscapImg'></div>
-                <div className='landscapImg'></div>
-                <div className='landscapImg'></div>
+
+                <div className='landscapSec'>
+                    <div className='landscapImg'></div>
+                    <div className='iconDiv'><span><LuTreePalm /></span></div>
+                    <h4>Ancient Oilve Groves</h4>
+                    <p>Our groves are nurtured withcare, preserving generations of heritage.</p>
+                </div>
+                <div className='landscapSec'>
+                    <div className='landscapImg'></div>
+                    <div className='iconDiv'><span><LiaMountainSolid /></span></div>
+                    <h4>Breathtaking Landscapes</h4>
+                    <p>From rugged mountains to fertile valleys, nature thrives in its purest form.</p>
+                </div>
+                <div className='landscapSec'>
+                    <div className='landscapImg'></div>
+                    <div className='iconDiv'><span><PiPlantBold /></span></div>
+                    <h4>Sustainable & Natural</h4>
+                    <p>We follow natural, sustainable pratices to protect the land and future generations.</p>
+                </div>
+                <div className='landscapSec'>
+                    <div className='landscapImg'></div>
+                    <div className='iconDiv'><span><GiPlantSeed /></span></div>
+                    <h4>Purity in Every Oilve</h4>
+                    <p>Every olive is a testament to purity, quality and the richness of our land.</p>
+                </div>
+
             </div>
             <div className='landscapBtn'><BRBtn /></div>
         </div>

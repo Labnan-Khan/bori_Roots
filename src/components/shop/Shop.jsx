@@ -10,7 +10,7 @@ function Shop() {
 
         <div className='shopHeadingDiv'>
             <div className='shopVideo'>
-                <video src={video1} autoPlay muted loop></video>
+                <video src={video1} autoPlay muted loop playsInline></video>
 
             </div>
             

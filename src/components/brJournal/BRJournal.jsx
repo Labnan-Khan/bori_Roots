@@ -3,6 +3,7 @@ import './brJournal.css'
 import brimg1 from '../../assets/landscapImg1.png'
 import brimg2 from '../../assets/landscapImg2.png'
 import { TiArrowLeftThick } from 'react-icons/ti'
+import landscapImg1 from './landscapImg1.jpg'
 function BRJournal() {
 
 
@@ -165,7 +166,7 @@ function BRJournal() {
         // lndscapes item array
     const itemLaandscaapesDetails = [  
                         {
-                        cardImg: brimg1, cardHeading: "Andalusia: Where 300 Million Olive Trees Shape a Landscape and a Culture",
+                        cardImg: landscapImg1, cardHeading: "Andalusia: Where 300 Million Olive Trees Shape a Landscape and a Culture",
                             cardDate: "2023-05-18", cardSource: "Olive Oils from Spain",
                             cardPeraghaph: "Spain''s Andalusia region produces more olive oil than any country outside Spain itself — accounting for roughly 75% of national and 30% of global output. The endless silver-green sea of olive trees stretching across Jaén, Córdoba, Sevilla, and Granada provinces is a UNESCO Intangible Cultural Heritage nominee. This portrait explores how the olive has shaped Andalusian architecture, cuisine, economy, and identity over 3,000 years.",
                             cardLink: "https://www.oliveoilsfromspain.org/regions/"},
