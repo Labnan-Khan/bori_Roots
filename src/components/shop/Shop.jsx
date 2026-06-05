@@ -1,7 +1,7 @@
 import React from 'react'
 import './shop.css'
 import BRBtn from '../brButton/BRBtn'
-import video1 from '../../assets/shopbgVideo2.mp4'
+import video1 from '../../assets/HeroSecBgBottleVideo.mp4'
 
 function Shop() {
   return (
@@ -18,7 +18,6 @@ function Shop() {
             <div className='shopHeadRight'>
                 <h1 className='startingH1tag'>Grab Upto 10% off </h1>
                 <h1 className='startingH1tag'>On Selected Oil</h1>
-                <div><BRBtn /></div>
             </div>
             {/* <div className='shopHeadLeft'></div> */}
         </div>

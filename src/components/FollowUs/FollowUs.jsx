@@ -5,6 +5,10 @@ import { ImYoutube } from 'react-icons/im'
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import { BiLogoGmail, BiLogoTiktok } from 'react-icons/bi'
 import { TfiLinkedin, TfiPinterest } from 'react-icons/tfi'
+import { FiMessageSquare } from 'react-icons/fi'
+import { MdGroups, MdOutlineMail } from 'react-icons/md'
+import { BsLockFill } from 'react-icons/bs'
+import { GiStrong } from 'react-icons/gi'
 function FollowUs() {
   return (
     <>
@@ -15,6 +19,47 @@ function FollowUs() {
           <p className='ptagAfterH1tag'>Become part of the Bori Roots family. Subscribe for updates, 
             share your stories, and help us grow our community.
           </p>
+
+          <div className='plusPointsSec'>
+
+            <div className='ppCard'>
+              <div className='ppCardLogo'><MdOutlineMail /> </div>
+              <div className='ppCardDetails'>
+                <h5>Stay Updated</h5>
+                <p>Be the first to Know</p>
+              </div>
+            </div>
+
+            <div className='ppCard'>
+              <div className='ppCardLogo'><MdGroups /></div>
+              <div className='ppCardDetails'>
+                <h5>Share Stories</h5>
+                <p>Your voice inspires</p>
+              </div>
+            </div>
+            
+            <div className='ppCard'>
+              <div className='ppCardLogo'><GiStrong /></div>
+              <div className='ppCardDetails'>
+                <h5>Grow Together</h5>
+                <p>Be stronger as one</p>
+              </div>
+            </div>
+            
+          </div>
+
+          <div className='subscribeSec'>
+            <div className='subInputSec'>
+              <div>
+                <span><FiMessageSquare /></span>
+                <input type="email" placeholder='Enter your email address'/>
+              </div>
+              <button>Subscribe</button>
+            </div>
+
+            <p><div><BsLockFill /></div> We respect your Privacy. No spam, ever.</p>
+          </div>
+          <p>Follow us and be part of our journey</p>
           <div className='follUsLogo'>
             <div className='logoSec' >
               <a href="https://x.com/rayzmedia_?s=21"  target="_blank" rel="noopener noreferrer"><div className='log1'><PiXLogo /></div></a>

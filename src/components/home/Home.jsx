@@ -2,21 +2,26 @@ import React from 'react'
 import './home.css'
 import BRBtn from '../brButton/BRBtn'
 import { ImLeaf } from 'react-icons/im'
-import Testimonial from '../testimonial/Testimonial'
+// import Testimonial from '../testimonial/Testimonial'
 import FollowUs from '../FollowUs/FollowUs'
-import herobgVideo1 from '../../assets/shopbgVideo2.mp4'
+// import herobgVideo1 from '../../assets/shopbgVideo2.mp4'
 import { GiPalmTree, GiPlantSeed } from 'react-icons/gi'
-import { LuTreePalm } from 'react-icons/lu'
+import { LuAward, LuTreePalm } from 'react-icons/lu'
 import { LiaMountainSolid } from 'react-icons/lia'
 import { PiPlantBold } from 'react-icons/pi'
+import { FaDroplet } from 'react-icons/fa6'
+import Testimonial from '../testimonial/Testimonial'
+import heroSecBGVideo from '../../assets/HeroSecBgBottleVideo.mp4'
+// import herobgVideo2 from '../../assets/olive_render.mp4'
 function Home() {
   return (
     <div className='home'>
+
         {/* heroSection */}
         <div className='heroSec'>
 
             <div className='herobgvideo'>
-                <video src={herobgVideo1} autoPlay muted loop playsInline></video>
+                <video src={heroSecBGVideo} autoPlay muted loop playsInline></video>
             </div>
 
             <div className='heroleft'>
@@ -30,9 +35,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className='heroRight'>
-                <div></div>
-            </div>
+            
         </div>
 
         {/* shortStory */}
@@ -44,21 +47,21 @@ function Home() {
             <div className='sscardSec'>
                 {/* card1 */}
                 <div className='cards'>
-                    <div><ImLeaf /></div>
+                    <div> <span><LuAward /></span></div>
                     <h3>Premium Quality</h3>
                     <p>Cold-pressed and unfiltered to preserve all natural nutrients and flavors.</p>
 
                 </div>
                 <div className='cards'>
-                    <div><ImLeaf /></div>
-                    <h3>Premium Quality</h3>
-                    <p>Cold-pressed and unfiltered to preserve all natural nutrients and flavors.</p>
+                    <div> <span><ImLeaf /></span></div>
+                    <h3>100% Organic</h3>
+                    <p>Grown without pesticides or chemicals in the pristine valleys of Balochistan.</p>
 
                 </div>
                 <div className='cards'>
-                    <div><ImLeaf /></div>
-                    <h3>Premium Quality</h3>
-                    <p>Cold-pressed and unfiltered to preserve all natural nutrients and flavors.</p>
+                    <div> <span><FaDroplet/></span></div>
+                    <h3>Rich in Antioxidants</h3>
+                    <p>Packed with polyphenols and essential nutrients for your wellbeing.</p>
 
                 </div>
             </div>
@@ -188,7 +191,8 @@ function Home() {
         {/* testimonail */}
         
         <FollowUs />
-        <Testimonial />
+        {/* <Testimonial />  */}
+        <Testimonial /> 
 
         {/* begin your journey */}
         <div className='beginYJ'>

@@ -7,45 +7,69 @@
     gap: 100px;
     padding-bottom: 20px;
     overflow: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 
 .home .heroSec{
     width: 100%;
+    /* border-bottom: 4px solid blue; */
+    /* min-height: 60vh; */
     display: flex;
     justify-content: center;
+    /* padding-left: ; */
     align-items: center;
     gap: 30px;
     position: relative;
+    /* box-shadow:   0px 0px 30px black; */
+    border-bottom: 2px solid #035d42;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    overflow: hidden;
+    /* overflow: hidden; */
+    /* padding-bottom: 100px; */
+    /* padding: 0px; */
 }
 
 .herobgvideo{
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    overflow: hidden;
-    /* opacity: 0.9; */
-    
-    /* background-color: #483415;
+    width: 100%;
     display: flex;
     justify-content: start;
-    align-items: start; */
+    align-items: start;
+    height: auto;
+    background-color: #035d42;
 }
 
 .herobgvideo video{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    /* height: auto; */
+    width: 110%;
     /* aspect-ratio: 12/9; */
 }
 .home .heroSec .heroleft{
+    position: absolute;
+    left: 30px;
+    /* top: 0%; */
+    min-width: 500px;
     width: 50%;
+    /* margin-left: 10px; */
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 10px;
+    gap: 10px;background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: inset 0px 0px 20px #035d42;
+    backdrop-filter: blur(5px);
+    border: 2px solid #035d42;
+}
+
+
+.home .heroSec .heroleft p{
+    color: #04eca6;
+}
+.home .heroSec .heroleft h1{
+    color: white;
 }
 
 .home .heroSec .heroleft .ptagAfterH1tag{
@@ -112,35 +136,59 @@
 }
 
 .shortStory .sscardSec .cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "cardIcon1 cardH1"
+                "cardIcon1 cardP1";
+    /* flex-direction: column; */
+    justify-content: start;
     align-items: center;
-    text-align: center;
-    border: 2px solid black;
+    /* text-align: center; */
+    /* border: 2px solid black; */
     border-radius: 20px;
-    padding: 30px;
+    /* padding: 30px; */
     background-color: #0B3D2E;
     color: #a5a5a4;
     font-size: 17px;
-    gap: 10px;
+    gap: 10px 30px;
+    overflow: hidden;
 }
-.shortStory .sscardSec .cards div{
+.shortStory .sscardSec .cards div {
+    display: flex;
+    width: ;
+    height: 100%;
+    background-color: #286653;
+    grid-area: cardIcon1;
+    padding: 30px;
+    /* border-top-right-radius: 40%; */
+    border-bottom-right-radius: 40%;
+}
+.shortStory .sscardSec .cards div span{
     background-color: #e4e4d6;
     color: #0B3D2E;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 45px;
-    padding: 15px;
+    /* padding: 15px; */
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px black;
+    
 }
 .shortStory .sscardSec .cards h3{
     font-size: 20px;
     color: #e4e4d6;
+    grid-area: cardH1;
+    padding-top: 30px;
 }
 
+.shortStory .sscardSec .cards p{
+    grid-area: cardP1;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
 
 /* Collection */
 
@@ -457,34 +505,20 @@
 @media (max-width:768px){
     .home .heroSec{
         flex-direction: column;
-        padding-top: 100px;
+        /* padding-top: 100px; */
     }
 
     .home .heroSec .heroleft{
-        width: 90%;
-        padding-bottom: 40px;
+        width: 80%;
     }
     .heroleft .startingPtag,.heroleft .startingH1tag,.heroleft .ptagAfterH1tag{
         text-align: start;
         
     }
-    .home .heroSec .heroleft .divBtn {
-        width: 90%;
-        
-    }
+    
 
-    .home .heroSec .heroRight{
-        display: none;
-        width: 90%;
-        justify-content: center;
-        align-items: start;
-        /* background-color: #035d42; */
-        
-    }
-    .home .heroSec .heroRight div{
-        background-size: cover;
-        overflow-x: visible;
-    }
+    
+    
 
     /* shortStory */
     .home .shortStory{

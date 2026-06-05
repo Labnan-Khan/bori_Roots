@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ScrollToTop from './components/scrollToTop/ScrollToTop'
 import Card from './components/card/Card'
+import Recipe from './components/recipe/Recipe'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           
           <Route  path='/' element={<Home />}/>
           <Route  path='discover' element={<Discover />}/>
+          <Route  path='recipe' element={<Recipe />}/>
           <Route  path='/shop' element={<Shop />}/>
           <Route  path='/contact' element={<Contact />}/>
           <Route  path='/card' element={<Card />}/>
