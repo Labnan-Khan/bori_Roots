@@ -27386,6 +27386,7 @@ useEffect(()=>{
     <div className= {`ShowFullDetail ${showFullArticalPage? "showFullArticalPage" : ""}`}  >
             <div className='gobackBtn' onClick={()=> setShowFullArticalPage(false)}><TiArrowLeftThick /></div>
             <div className='articalBox'>
+                
                 <div className='articalRightSec'>
                     
                     <h4>Our Premium Collection</h4>
