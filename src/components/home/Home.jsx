@@ -21,6 +21,7 @@ function Home() {
         <div className='heroSec'>
 
             <div className='herobgvideo'>
+                
                 <video src={heroSecBGVideo} autoPlay muted loop playsInline></video>
             </div>
 

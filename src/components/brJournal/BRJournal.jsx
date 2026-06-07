@@ -5,6 +5,94 @@ import brimg2 from '../../assets/landscapImg2.png'
 import { TiArrowLeftThick } from 'react-icons/ti'
 import landscapImg1 from './landscapImg1.jpg'
 import fallingLeves from '../../assets/leavesFalling.mp4'
+import articleImge1 from './articleImg1.jpg'
+import articleImge2 from './articleImg2.jpeg'
+import articleImge3 from './articleImg3.jpeg'
+import articleImge4 from './articleImg4.jpeg'
+import articleImge5 from './articleImg5.jpg'
+import articleImge6 from './articleImg6.jpg'
+import articleImge7 from './articleImg7.webp'
+import articleImge8 from './articleImg8.jpeg'
+import articleImge9 from './articleImg9.jpg'
+import articleImge10 from './articleImg10.jpg'
+import articleImge11 from './articleImg11.jpg'
+import articleImge12 from './articleImg12.jpg'
+import articleImge13 from './articleImg13.jpg'
+import articleImge14 from './articleImg14.jpg'
+import articleImge15 from './articleImg15.webp'
+import articleImge16 from './articleImg16.webp'
+import articleImge17 from './articleImg17.jpg'
+import articleImge18 from './articleImg18.jpg'
+import articleImge19 from './articleImg19.jpg'
+import articleImge20 from './articleImg20.jpg'
+import articleImge21 from './articleImg21.webp'
+import articleImge22 from './articleImg22.webp'
+import articleImge23 from './articleImg23.jpg'
+import articleImge24 from './articleImg24.jpg'
+import articleImge25 from './articleImg25.jpg'
+import articleImge26 from './articleImg26.jpg'
+import articleImge27 from './articleImg27.webp'
+import articleImge28 from './articleImg28.webp'
+import articleImge29 from './articleImg29.webp'
+import articleImge30 from './articleImg30.jpg'
+import articleImge31 from './articleImg31.jpg'
+import articleImge32 from './articleImg32.jpg'
+import articleImge33 from './articleImg33.webp'
+import articleImge34 from './articleImg34.jpeg'
+import articleImge35 from './articleImg35.jpg'
+import articleImge36 from './articleImg36.jpeg'
+import articleImge37 from './articleImg37.webp'
+import articleImge38 from './articleImg38.jpg'
+import articleImge39 from './artilceImg39.jpeg'
+import articleImge40 from './articleImg40.webp'
+import articleImge41 from './articleImg41.jpg'
+import articleImge42 from './articleImg42.jpg'
+import articleImge43 from './articleImg43.webp'
+import articleImge44 from './articleImg44.webp'
+import articleImge45 from './articleImg45.avif'
+import articleImge46 from './articleImg46.webp'
+import articleImge47 from './articleImg47.jpg'
+import articleImge48 from './artilceImg48.jpg'
+import articleImge49 from './articleImg49.jpg'
+import articleImge50 from './articleImg50.jpeg'
+import articleImge51 from './articleImg51.avif'
+import articleImge52 from './articleImg52.webp'
+import articleImge53 from './articleImg53.webp'
+import articleImge54 from './articleImgImg54.png'
+import articleImge55 from './articleImg55.webp'
+import articleImge56 from './articleImg56.webp'
+import articleImge57 from './articleImg57.avif'
+import articleImge58 from './articleImg58.webp'
+import articleImge59 from './articleImg59.avif'
+import articleImge60 from './articleImg60.jpeg'
+import articleImge61 from './articleImg61.jpg'
+import articleImge62 from './articleImg62.jpg'
+import articleImge63 from './articleImg63.webp'
+import articleImge64 from './articleImg64.jpeg'
+import articleImge65 from './articleImg65.webp'
+import articleImge66 from './articleImg66.jpg'
+import articleImge67 from './articleImg67.jpeg'
+import articleImge68 from './articleImg68.webp'
+import articleImge69 from './articleImg69.jpg'
+import articleImge70 from './articleImg70.jpg'
+import articleImge71 from './articleImg71.webp'
+import articleImge72 from './articleImg72.jpeg'
+import articleImge73 from './articleImg73.webp'
+import articleImge74 from './articleImg74.jpg'
+import articleImge75 from './articleImg75.webp'
+import articleImge76 from './articleImg76.avif'
+import articleImge77 from './articleImg77.jpeg'
+import articleImge78 from './articleImg78.webp'
+import articleImge79 from './articleImg79.webp'
+import articleImge80 from './articleImg80.jpg'
+import articleImge81 from './articleImg81.jpg'
+import articleImge82 from './articleImg82.avif'
+import articleImge83 from './articleImg83.jpg'
+import articleImge84 from './articleImg84.avif'
+import articleImge85 from './articleImg85.webp'
+import articleImge86 from './articleImg86.jpeg'
+
+
 function BRJournal() {
 
   // ============================================================
@@ -17,7 +105,8 @@ function BRJournal() {
 const articlesDataArray = [
   {
     id: 1,
-    title: "Article 1 â€” The Harvard Study That Changed How We Think About Dietary Fat",
+    img:articleImge1,
+    title: "The Harvard Study That Changed How We Think About Dietary Fat",
     subtitle: "A Thirty-Year Question Finally Answered",
     introduction: [
           "For much of the twentieth century, dietary fat was treated as the primary enemy of human health. Public health agencies across North America and Europe encouraged people to reduce fat intake almost universally, and olive oil â€” despite its long-standing role in Mediterranean cultures â€” was often grouped together with other fats as something to consume cautiously.",
@@ -170,7 +259,8 @@ const articlesDataArray = [
   },
   {
     id: 2,
-    title: "Article 2 â€” The Compound That Makes Olive Oil Sting",
+    img:articleImge2,
+    title: "The Compound That Makes Olive Oil Sting",
     subtitle: "The Molecule Hidden Inside the Burn",
     introduction: [
           "High-quality extra virgin olive oil produces a very unusual sensation.",
@@ -340,7 +430,8 @@ const articlesDataArray = [
   },
   {
     id: 3,
-    title: "Article 3 â€” The Trial That Proved a Diet Could Save Lives",
+    img:articleImge3,
+    title: "The Trial That Proved a Diet Could Save Lives",
     subtitle: "The Study That Changed Nutritional Science Forever",
     introduction: [
           "Few nutritional studies have transformed global medical thinking as dramatically as the PREDIMED trial.",
@@ -608,7 +699,8 @@ const articlesDataArray = [
   },
   {
     id: 4,
-    title: "Article 4 â€” Your Gut Contains 100 Trillion Microorganisms â€” Olive Oil Feeds the Right Ones",
+    img:articleImge4,
+    title: "Your Gut Contains 100 Trillion Microorganisms  Olive Oil Feeds the Right Ones",
     subtitle: "The Invisible Ecosystem Inside the Human Body",
     introduction: [
           "Inside every human digestive system exists an ecosystem more complex than most natural environments on Earth.",
@@ -846,7 +938,8 @@ const articlesDataArray = [
   },
   {
     id: 5,
-    title: "Article 5 â€” The Oxidation Problem at the Heart of Cardiovascular Disease",
+    img:articleImge5,
+    title: "The Oxidation Problem at the Heart of Cardiovascular Disease",
     subtitle: "LDL Cholesterol Is Not the Real Villain",
     introduction: [
           "For decades, LDL cholesterol was widely labelled â€œbad cholesterol.â€",
@@ -1076,7 +1169,8 @@ const articlesDataArray = [
   },
   {
     id: 6,
-    title: "Article 6 â€” Mapping the Chemical Universe of Extra Virgin Olive Oil",
+    img:articleImge6,
+    title: "Mapping the Chemical Universe of Extra Virgin Olive Oil",
     subtitle: "Olive Oil Is Far More Complex Than Most People Realise",
     introduction: [
           "Most people think of olive oil as a simple food: crushed olives transformed into liquid fat.",
@@ -1348,7 +1442,8 @@ const articlesDataArray = [
   },
   {
     id: 7,
-    title: "Article 7 â€” Olive Oil and Type 2 Diabetes: What 15,000 Europeans Revealed Over a Decade",
+    img:articleImge7,
+    title: "Olive Oil and Type 2 Diabetes: What 15,000 Europeans Revealed Over a Decade",
     subtitle: "One of the Fastest Growing Diseases in Human History",
     introduction: [
           "Type 2 diabetes has become one of the defining health crises of the modern world.",
@@ -1616,7 +1711,8 @@ const articlesDataArray = [
   },
   {
     id: 8,
-    title: "Article 8 â€” The Anti-Inflammatory Diet Hidden Inside Mediterranean History",
+    img:articleImge8,
+    title: "The Anti-Inflammatory Diet Hidden Inside Mediterranean History",
     subtitle: "Chronic Inflammation: The Silent Driver of Modern Disease",
     introduction: [
           "For much of medical history, inflammation was viewed primarily as a short-term protective response.",
@@ -1864,7 +1960,8 @@ const articlesDataArray = [
   },
   {
     id: 9,
-    title: "Article 9 â€” Why Early-Harvest Olive Oil Contains More Polyphenols",
+    img:articleImge9,
+    title: "Why Early-Harvest Olive Oil Contains More Polyphenols",
     subtitle: "The Timing of Harvest Changes Everything",
     introduction: [
           "Two bottles of extra virgin olive oil can look similar on a supermarket shelf while behaving completely differently inside the human body.",
@@ -2129,7 +2226,8 @@ const articlesDataArray = [
   },
   {
     id: 10,
-    title: "Article 10 â€” Can Olive Oil Really Help You Live Longer?",
+    img:articleImge10,
+    title: "Can Olive Oil Really Help You Live Longer?",
     subtitle: "The Search for Longevity",
     introduction: [
           "For thousands of years, humans have searched for the secret to long life.",
@@ -2391,7 +2489,8 @@ const articlesDataArray = [
   },
   {
     id: 11,
-    title: "Article 11 â€” The Mediterranean Diet and Alzheimerâ€™s Disease: Can Food Protect the Brain?",
+    img:articleImge11,
+    title: "The Mediterranean Diet and Alzheimer's Disease: Can Food Protect the Brain?",
     subtitle: "The Growing Fear of Cognitive Decline",
     introduction: [
           "Among all age-related diseases, few are feared more than Alzheimerâ€™s disease.",
@@ -2649,7 +2748,8 @@ const articlesDataArray = [
   },
   {
     id: 12,
-    title: "Article 12 â€” Why Olive Oil Is Considered One of the Most Anti-Inflammatory Foods on Earth",
+    img:articleImge12,
+    title: "Why Olive Oil Is Considered One of the Most Anti-Inflammatory Foods on Earth",
     subtitle: "Inflammation Was Once Thought to Be Temporary",
     introduction: [
           "For much of medical history, inflammation was viewed as a short-lived biological response.",
@@ -2909,7 +3009,8 @@ const articlesDataArray = [
   },
   {
     id: 13,
-    title: "Article 13 â€” Why Extra Virgin Olive Oil Protects Blood Vessels",
+    img:articleImge13,
+    title: "Why Extra Virgin Olive Oil Protects Blood Vessels",
     subtitle: "Your Blood Vessels Are Constantly Under Stress",
     introduction: [
           "Every second of every day, blood vessels perform one of the most important tasks in the human body: transporting oxygen and nutrients to nearly every cell.",
@@ -3167,7 +3268,8 @@ const articlesDataArray = [
   },
   {
     id: 14,
-    title: "Article 14 â€” The Olive Tree: One of the Oldest Cultivated Trees in Human Civilization",
+    img:articleImge14,
+    title: "The Olive Tree: One of the Oldest Cultivated Trees in Human Civilization",
     subtitle: "A Tree Older Than Empires",
     introduction: [
           "Long before modern nations existed, before industrial agriculture, and before written science, olive trees were already growing across the Mediterranean world.",
@@ -3454,7 +3556,8 @@ const articlesDataArray = [
   },
   {
     id: 15,
-    title: "Article 15 â€” Why Olive Oil Was Called â€œLiquid Goldâ€ for Thousands of Years",
+    img:articleImge15,
+    title: "Why Olive Oil Was Called Liquid Gold for Thousands of Years",
     subtitle: "More Valuable Than Food Alone",
     introduction: [
           "Throughout human history, very few natural products achieved the level of cultural, economic, and symbolic importance that olive oil once held.",
@@ -3747,7 +3850,8 @@ const articlesDataArray = [
   },
   {
     id: 16,
-    title: "Article 16 â€” How Olive Oil Became the Foundation of the Mediterranean Diet",
+    img:articleImge16,
+    title: "How Olive Oil Became the Foundation of the Mediterranean Diet",
     subtitle: "A Diet That Confused Modern Science",
     introduction: [
           "For much of the twentieth century, mainstream nutritional advice revolved around one central idea: fat was dangerous.",
@@ -4006,7 +4110,8 @@ const articlesDataArray = [
   },
   {
     id: 17,
-    title: "Article 17 â€” Why Olive Oil Tastes Bitter â€” And Why Thatâ€™s Actually a Good Sign",
+    img:articleImge17,
+    title: "Why Olive Oil Tastes Bitter  And Why That's Actually a Good Sign",
     subtitle: "Bitterness Is Often Misunderstood",
     introduction: [
           "Many consumers taste high-quality extra virgin olive oil for the first time and immediately think something is wrong.",
@@ -4293,7 +4398,8 @@ const articlesDataArray = [
   },
   {
     id: 18,
-    title: "Article 18 â€” Cold Extraction: Why Temperature Changes Olive Oil Quality Completely",
+    img:articleImge18,
+    title: "Cold Extraction: Why Temperature Changes Olive Oil Quality Completely",
     subtitle: "Heat Is the Enemy of Fresh Olive Oil",
     introduction: [
           "Extra virgin olive oil is often described as:"
@@ -4591,7 +4697,8 @@ const articlesDataArray = [
   },
   {
     id: 19,
-    title: "Article 19 â€” Why Olive Oil Oxidizes Less Than Most Cooking Oils",
+    img:articleImge19,
+    title: "Why Olive Oil Oxidizes Less Than Most Cooking Oils",
     subtitle: "Not All Oils Behave the Same Under Heat",
     introduction: [
           "When people cook, they often focus on:"
@@ -4871,7 +4978,8 @@ const articlesDataArray = [
   },
   {
     id: 20,
-    title: "Article 20 â€” Why Olive Oil Is One of the Few Truly Natural Fats Humans Still Consume",
+    img:articleImge20,
+    title: "Why Olive Oil Is One of the Few Truly Natural Fats Humans Still Consume",
     subtitle: "Modern Diets Became Industrialized Faster Than Human Biology Could Adapt",
     introduction: [
           "For most of human history, people consumed foods that were:"
@@ -5172,7 +5280,8 @@ const articlesDataArray = [
   },
   {
     id: 21,
-    title: "Article 21 â€” Why Olive Oil Was Central to Ancient Medicine Long Before Modern Science",
+    img:articleImge21,
+    title: "Why Olive Oil Was Central to Ancient Medicine Long Before Modern Science",
     subtitle: "Medicine Existed Long Before Pharmaceuticals",
     introduction: [
           "Long before laboratories, clinical trials, or pharmaceutical companies existed, ancient civilizations relied heavily on natural substances to treat illness and maintain health.",
@@ -5451,7 +5560,8 @@ const articlesDataArray = [
   },
   {
     id: 22,
-    title: "Article 22 â€” The Science of Olive Oil and Cholesterol: What Actually Matters",
+    img:articleImge22,
+    title: "The Science of Olive Oil and Cholesterol: What Actually Matters",
     subtitle: "Cholesterol Became One of the Most Misunderstood Topics in Nutrition",
     introduction: [
           "For decades, cholesterol was treated almost like a nutritional villain.",
@@ -5724,7 +5834,8 @@ const articlesDataArray = [
   },
   {
     id: 23,
-    title: "Article 23 â€” Why Olive Oil and the Human Brain Are Deeply Connected",
+    img:articleImge23,
+    title: "Why Olive Oil and the Human Brain Are Deeply Connected",
     subtitle: "The Brain Is Mostly Fat",
     introduction: [
           "The human brain is one of the most energy-demanding organs in the body.",
@@ -5977,7 +6088,8 @@ const articlesDataArray = [
   },
   {
     id: 24,
-    title: "Article 24 â€” The Gut-Brain Axis: How Olive Oil May Influence Mood, Stress, and Mental Health",
+    img:articleImge24,
+    title: "The Gut-Brain Axis: How Olive Oil May Influence Mood, Stress, and Mental Health",
     subtitle: "The Brain and Gut Are in Constant Conversation",
     introduction: [
           "For centuries, emotions were thought to exist almost entirely inside the brain.",
@@ -6253,7 +6365,8 @@ const articlesDataArray = [
   },
   {
     id: 25,
-    title: "Article 25 â€” Why Olive Oil Is One of the Most Researched Foods in Modern Nutrition",
+    img:articleImge25,
+    title: "Why Olive Oil Is One of the Most Researched Foods in Modern Nutrition",
     subtitle: "Few Foods Have Been Studied So Intensively",
     introduction: [
           "Modern nutritional science investigates thousands of foods every year.",
@@ -6536,7 +6649,8 @@ const articlesDataArray = [
   },
   {
     id: 26,
-    title: "Article 26 â€” Olive Oil and Blue Zones: What the Worldâ€™s Longest-Living Populations Have in Common",
+    img:articleImge26,
+    title: "Olive Oil and Blue Zones: What the World's Longest-Living Populations Have in Common",
     subtitle: "The Search for Places Where People Live the Longest",
     introduction: [
           "Across the world, certain regions consistently produce unusually high numbers of people who live:"
@@ -6837,7 +6951,8 @@ const articlesDataArray = [
   },
   {
     id: 27,
-    title: "Article 27 â€” Why Olive Oil May Be One of the Most Important Foods for Healthy Aging",
+    img:articleImge27,
+    title: "Why Olive Oil May Be One of the Most Important Foods for Healthy Aging",
     subtitle: "Aging Is Not Just About Getting Older",
     introduction: [
           "For most of human history, aging was viewed as inevitable decline.",
@@ -7129,7 +7244,8 @@ const articlesDataArray = [
   },
   {
     id: 28,
-    title: "Article 28 â€” Olive Oil and the Human Microbiome: The Hidden Ecosystem Inside the Body",
+    img:articleImge28,
+    title: "Olive Oil and the Human Microbiome: The Hidden Ecosystem Inside the Body",
     subtitle: "Humans Are Not Biologically Alone",
     introduction: [
           "For much of medical history, the human body was viewed primarily as a self-contained biological machine.",
@@ -7394,7 +7510,8 @@ const articlesDataArray = [
   },
   {
     id: 29,
-    title: "Article 29 â€” Why Traditional Mediterranean Meals Were Naturally Anti-Inflammatory",
+    img:articleImge29,
+    title: "Why Traditional Mediterranean Meals Were Naturally Anti-Inflammatory",
     subtitle: "Ancient Diets Were Built Around Survival â€” Not Trends",
     introduction: [
           "Modern nutrition is filled with:"
@@ -7715,7 +7832,8 @@ const articlesDataArray = [
   },
   {
     id: 30,
-    title: "Article 30 â€” Why Extra Virgin Olive Oil Is Fundamentally Different From Refined Olive Oil",
+    img:articleImge30,
+    title: "Why Extra Virgin Olive Oil Is Fundamentally Different From Refined Olive Oil",
     subtitle: "Not All Olive Oils Are the Same",
     introduction: [
           "To most consumers, olive oil appears simple.",
@@ -8008,7 +8126,8 @@ const articlesDataArray = [
   },
   {
     id: 31,
-    title: "Article 31 â€” Why Freshness Is One of the Most Important Factors in Olive Oil Quality",
+    img:articleImge31,
+    title: "Why Freshness Is One of the Most Important Factors in Olive Oil Quality",
     subtitle: "Olive Oil Is Not a Shelf-Stable Chemical Product",
     introduction: [
           "Many people treat olive oil like a permanent pantry item.",
@@ -8321,7 +8440,8 @@ const articlesDataArray = [
   },
   {
     id: 32,
-    title: "Article 32 â€” Why Olive Oil Was Traditionally Stored in Clay, Stone, and Dark Glass",
+    img:articleImge32,
+    title: "Why Olive Oil Was Traditionally Stored in Clay, Stone, and Dark Glass",
     subtitle: "Storage Determines Whether Olive Oil Survives or Degrades",
     introduction: [
           "Producing high-quality extra virgin olive oil is only part of the story.",
@@ -8638,7 +8758,8 @@ const articlesDataArray = [
   },
   {
     id: 33,
-    title: "Article 33 â€” Why Olive Oil Was Used for Beauty, Skin, and Hair Across Ancient Civilizations",
+    img:articleImge33,
+    title: "Why Olive Oil Was Used for Beauty, Skin, and Hair Across Ancient Civilizations",
     subtitle: "Beauty Rituals Existed Long Before Cosmetics Industries",
     introduction: [
           "Thousands of years before modern skincare brands existed, ancient civilizations already developed sophisticated beauty and body-care rituals.",
@@ -8661,7 +8782,8 @@ const articlesDataArray = [
   },
   {
     id: 34,
-    title: "Article 34 â€” Why Olive Oil Became One of the Most Sacred Symbols of Peace and Civilization",
+    img:articleImge34,
+    title: "Why Olive Oil Became One of the Most Sacred Symbols of Peace and Civilization",
     subtitle: "Few Plants Carry Symbolism as Deep as the Olive Tree",
     introduction: [
           "Throughout human history, certain natural symbols became deeply connected to:"
@@ -8966,7 +9088,8 @@ const articlesDataArray = [
   },
   {
     id: 35,
-    title: "Article 35 â€” Why Olive Oil Became the Heart of Mediterranean Agriculture and Trade",
+    img:articleImge35,
+    title: "Why Olive Oil Became the Heart of Mediterranean Agriculture and Trade",
     subtitle: "Olive Trees Built Economies Before Modern Nations Existed",
     introduction: [
           "Long before modern financial systems, stock markets, or industrial agriculture, olive cultivation already shaped:"
@@ -9284,7 +9407,8 @@ const articlesDataArray = [
   },
   {
     id: 36,
-    title: "Article 36 â€” Why Olive Harvest Timing Changes Everything About Olive Oil",
+    img:articleImge36,
+    title: "Why Olive Harvest Timing Changes Everything About Olive Oil",
     subtitle: "The Same Olive Tree Can Produce Completely Different Oils",
     introduction: [
           "Many people assume olive oil quality depends mostly on:"
@@ -9619,7 +9743,8 @@ const articlesDataArray = [
   },
   {
     id: 37,
-    title: "Article 37 â€” Why Olive Trees Thrive in Harsh Environments Where Other Crops Struggle",
+    img:articleImge37,
+    title: "Why Olive Trees Thrive in Harsh Environments Where Other Crops Struggle",
     subtitle: "Olive Trees Were Built for Survival",
     introduction: [
           "Many modern agricultural crops require:"
@@ -9913,7 +10038,8 @@ const articlesDataArray = [
   },
   {
     id: 38,
-    title: "Article 38 â€” Why Olive Oil Was Traditionally Consumed Daily Rather Than Occasionally",
+    img:articleImge38,
+    title: "Why Olive Oil Was Traditionally Consumed Daily Rather Than Occasionally",
     subtitle: "Mediterranean Cultures Never Treated Olive Oil as a â€œSuperfoodâ€",
     introduction: [
           "In modern wellness culture, foods often become trends.",
@@ -10207,7 +10333,8 @@ const articlesDataArray = [
   },
   {
     id: 39,
-    title: "Article 39 â€” Why Olive Oil and Bread Became One of Humanityâ€™s Oldest Nutritional Partnerships",
+    img:articleImge39,
+    title: "Why Olive Oil and Bread Became One of Humanity's Oldest Nutritional Partnerships",
     subtitle: "Two Ancient Foods Built Entire Civilizations",
     introduction: [
           "Long before modern packaged foods existed, two simple ingredients sustained large parts of the Mediterranean world:"
@@ -10513,8 +10640,9 @@ const articlesDataArray = [
     ]
   },
   {
-    id: 41,
-    title: "Article 41 â€” Why Olive Oil Was Considered Sacred Fuel Before Electricity Existed",
+    id: 40,
+    img:articleImge40,
+    title: "Why Olive Oil Was Considered Sacred Fuel Before Electricity Existed",
     subtitle: "Before Electricity, Light Was Precious",
     introduction: [
           "Modern civilization depends heavily on artificial lighting.",
@@ -10876,8 +11004,9 @@ const articlesDataArray = [
     ]
   },
   {
-    id: 42,
-    title: "Article 42 â€” Why Olive Oil Was One of the First Truly Global Luxury Agricultural Products",
+    id: 41,
+    img:articleImge41,
+    title: "Why Olive Oil Was One of the First Truly Global Luxury Agricultural Products",
     subtitle: "Long Before Modern Globalization, Olive Oil Crossed Civilizations",
     introduction: [
           "Today, global trade moves products across continents within days.",
@@ -11187,8 +11316,9 @@ const articlesDataArray = [
     ]
   },
   {
-    id: 43,
-    title: "Article 43 â€” Why Olive Oil Became the Foundation of Mediterranean Hospitality and Shared Meals",
+    id: 42,
+    img:articleImge42,
+    title: "Why Olive Oil Became the Foundation of Mediterranean Hospitality and Shared Meals",
     subtitle: "In Mediterranean Culture, Food Was Never Only About Hunger",
     introduction: [
           "Across much of the modern world, meals are often:"
@@ -11527,7 +11657,8 @@ const articlesDataArray = [
   },
   {
     id: 44,
-    title: "Article 44 â€” Why Olive Oil Was Traditionally Associated With Wisdom, Philosophy, and Learning",
+    img:articleImge43,
+    title: "Why Olive Oil Was Traditionally Associated With Wisdom, Philosophy, and Learning",
     subtitle: "Civilization Flourished Around Olive Trees",
     introduction: [
           "Some of the greatest intellectual traditions in human history emerged from regions deeply shaped by olive cultivation.",
@@ -11856,7 +11987,8 @@ const articlesDataArray = [
   },
   {
     id: 45,
-    title: "Article 45 â€” Why Olive Oil Became One of the Most Important Foods in Human Survival During Hard Times",
+    img:articleImge44,
+    title: "Why Olive Oil Became One of the Most Important Foods in Human Survival During Hard Times",
     subtitle: "Some Foods Sustained Civilizations Through Crisis",
     introduction: [
           "Throughout history, humanity repeatedly faced:"
@@ -12186,7 +12318,8 @@ const articlesDataArray = [
   },
   {
     id: 46,
-    title: "Article 46 â€” Why Olive Oil Was Considered Medicine Long Before Modern Pharmaceuticals Existed",
+    img:articleImge45,
+    title: "Why Olive Oil Was Considered Medicine Long Before Modern Pharmaceuticals Existed",
     subtitle: "Ancient Medicine Began With Nature",
     introduction: [
           "Before:"
@@ -12513,7 +12646,8 @@ const articlesDataArray = [
   },
   {
     id: 47,
-    title: "Article 47 â€” Why Olive Oil Was Traditionally Used for Strength, Athletic Recovery, and Physical Endurance",
+    img:articleImge46,
+    title: "Why Olive Oil Was Traditionally Used for Strength, Athletic Recovery, and Physical Endurance",
     subtitle: "Human Performance Was Once Built Through Simplicity",
     introduction: [
           "Long before:"
@@ -12840,7 +12974,8 @@ const articlesDataArray = [
   },
   {
     id: 48,
-    title: "Article 48 â€” Why Olive Oil Was One of the Most Important Foods for Farmers and Rural Communities",
+    img:articleImge47,
+    title: "Why Olive Oil Was One of the Most Important Foods for Farmers and Rural Communities",
     subtitle: "Agriculture Was Once the Center of Human Life",
     introduction: [
           "Before industrialization transformed society, most people lived closely connected to:"
@@ -13176,7 +13311,8 @@ const articlesDataArray = [
   },
   {
     id: 49,
-    title: "Article 49 â€” Why Olive Oil Was One of the Most Important Ingredients in Ancient Cooking",
+    img:articleImge48,
+    title: "Why Olive Oil Was One of the Most Important Ingredients in Ancient Cooking",
     subtitle: "Cooking Was Once Built Around Simplicity and Preservation",
     introduction: [
           "Modern cooking often depends on:"
@@ -13536,7 +13672,8 @@ const articlesDataArray = [
   },
   {
     id: 50,
-    title: "Article 50 â€” Why Olive Oil Became One of the Most Important Symbols of Mediterranean Identity",
+    img:articleImge49,
+    title: "Why Olive Oil Became One of the Most Important Symbols of Mediterranean Identity",
     subtitle: "Some Foods Become Part of Cultural DNA",
     introduction: [
           "Across history, certain foods became so deeply connected to regions and civilizations that they evolved into symbols of identity itself.",
@@ -13876,7 +14013,8 @@ const articlesDataArray = [
   },
   {
     id: 51,
-    title: "Article 51 â€” Why Olive Oil Became One of the Few Foods Shared Across Religion, Medicine, and Civilization",
+    img:articleImge50,
+    title: "Why Olive Oil Became One of the Few Foods Shared Across Religion, Medicine, and Civilization",
     subtitle: "Few Foods Crossed Every Boundary of Human Society",
     introduction: [
           "Throughout history, most foods remained connected primarily to:"
@@ -14206,7 +14344,8 @@ const articlesDataArray = [
   },
   {
     id: 52,
-    title: "Article 52 â€” Why Olive Oil Became One of the Most Respected Foods for Healthy Aging and Longevity",
+    img:articleImge51,
+    title: "Why Olive Oil Became One of the Most Respected Foods for Healthy Aging and Longevity",
     subtitle: "Human Beings Have Always Searched for Longevity",
     introduction: [
           "Across history, civilizations searched constantly for ways to:"
@@ -14522,7 +14661,8 @@ const articlesDataArray = [
   },
   {
     id: 53,
-    title: "Article 53 â€” Why Olive Oil Became One of the Most Important Foods for the Human Heart",
+    img:articleImge52,
+    title: "Why Olive Oil Became One of the Most Important Foods for the Human Heart",
     subtitle: "The Human Heart Has Always Been Central to Survival",
     introduction: [
           "Across every civilization, the heart symbolized:"
@@ -14816,7 +14956,8 @@ const articlesDataArray = [
   },
   {
     id: 54,
-    title: "Article 54 â€” Why Olive Oil Became One of the Most Powerful Natural Anti-Inflammatory Foods",
+    img:articleImge53,
+    title: "Why Olive Oil Became One of the Most Powerful Natural Anti-Inflammatory Foods",
     subtitle: "Inflammation Is Both Protective and Dangerous",
     introduction: [
           "Inflammation is one of the bodyâ€™s most important survival systems.",
@@ -15141,7 +15282,8 @@ const articlesDataArray = [
   },
   {
     id: 55,
-    title: "Article 55 â€” Why Olive Oil Became One of the Most Important Foods for the Human Brain",
+    img:articleImge54,
+    title: "Why Olive Oil Became One of the Most Important Foods for the Human Brain",
     subtitle: "The Brain Requires Constant Protection",
     introduction: [
           "The human brain is one of the most energy-demanding organs in the body.",
@@ -15450,7 +15592,8 @@ const articlesDataArray = [
   },
   {
     id: 56,
-    title: "Article 56 â€” Why Olive Oil Became One of the Most Important Foods for Gut Health and Digestion",
+    img:articleImge55,
+    title: "Why Olive Oil Became One of the Most Important Foods for Gut Health and Digestion",
     subtitle: "Digestion Sits at the Center of Human Health",
     introduction: [
           "For thousands of years, civilizations recognized that health begins in the digestive system.",
@@ -15796,7 +15939,8 @@ const articlesDataArray = [
   },
   {
     id: 57,
-    title: "Article 57 â€” Why Olive Oil Became One of the Most Important Foods for Metabolic Health and Blood Sugar Balance",
+    img:articleImge56,
+    title: "Why Olive Oil Became One of the Most Important Foods for Metabolic Health and Blood Sugar Balance",
     subtitle: "Modern Metabolic Disease Became a Global Crisis",
     introduction: [
           "Over the past century, rates of:"
@@ -16136,7 +16280,8 @@ const articlesDataArray = [
   },
   {
     id: 58,
-    title: "Article 58 â€” Why Olive Oil Became One of the Most Important Foods for Hormonal Balance and Cellular Function",
+    img:articleImge57,
+    title: "Why Olive Oil Became One of the Most Important Foods for Hormonal Balance and Cellular Function",
     subtitle: "Human Health Depends on Invisible Internal Systems",
     introduction: [
           "Inside the human body, countless systems work continuously without conscious awareness.",
@@ -16489,7 +16634,8 @@ const articlesDataArray = [
   },
   {
     id: 59,
-    title: "Article 59 â€” Why Olive Oil Became One of the Most Important Foods for Skin Protection and Healthy Aging",
+    img:articleImge58,
+    title: "Why Olive Oil Became One of the Most Important Foods for Skin Protection and Healthy Aging",
     subtitle: "Human Skin Reflects Internal Health",
     introduction: [
           "The skin is the bodyâ€™s largest organ.",
@@ -16837,7 +16983,8 @@ const articlesDataArray = [
   },
   {
     id: 60,
-    title: "Article 60 â€” Why Olive Oil Became One of the Most Important Foods for Immune Health and Human Resilience",
+    img:articleImge59,
+    title: "Why Olive Oil Became One of the Most Important Foods for Immune Health and Human Resilience",
     subtitle: "The Human Immune System Depends on Daily Habits",
     introduction: [
           "The immune system protects the body constantly against:"
@@ -17185,7 +17332,8 @@ const articlesDataArray = [
   },
   {
     id: 61,
-    title: "Article 61 â€” Why Olive Oil Became One of the Most Important Foods for Daily Energy and Human Vitality",
+    img:articleImge60,
+    title: "Why Olive Oil Became One of the Most Important Foods for Daily Energy and Human Vitality",
     subtitle: "Human Energy Depends on More Than Calories",
     introduction: [
           "Modern culture often treats energy as something that comes from:"
@@ -17541,7 +17689,8 @@ const articlesDataArray = [
   },
   {
     id: 62,
-    title: "Article 62 â€” Why Olive Oil Became One of the Most Important Foods for Human Survival Across Generations",
+    img:articleImge61,
+    title: "Why Olive Oil Became One of the Most Important Foods for Human Survival Across Generations",
     subtitle: "Some Foods Sustain More Than Individuals",
     introduction: [
           "Most foods nourish only temporarily.",
@@ -17889,7 +18038,8 @@ const articlesDataArray = [
   },
   {
     id: 63,
-    title: "Article 63 â€” Why Olive Oil Became One of the Most Important Foods for Human Civilization Itself",
+    img:articleImge62,
+    title: "Why Olive Oil Became One of the Most Important Foods for Human Civilization Itself",
     subtitle: "Some Foods Shape Entire Civilizations",
     introduction: [
           "Throughout history, certain foods influenced not only:"
@@ -18267,7 +18417,8 @@ const articlesDataArray = [
   },
   {
     id: 64,
-    title: "Article 64 â€” Why Olive Oil Became One of Humanityâ€™s Most Enduring Symbols of Peace, Stability, and Hope",
+    img:articleImge63,
+    title: "Why Olive Oil Became One of Humanity's Most Enduring Symbols of Peace, Stability, and Hope",
     subtitle: "Some Symbols Survive Across Thousands of Years",
     introduction: [
           "Throughout human history, very few natural symbols remained meaningful across:"
@@ -18636,7 +18787,8 @@ const articlesDataArray = [
   },
   {
     id: 65,
-    title: "Article 65 â€” Why Olive Oil Became One of the Most Important Foods for Human Connection With Nature",
+    img:articleImge64,
+    title: "Why Olive Oil Became One of the Most Important Foods for Human Connection With Nature",
     subtitle: "Human Health Once Followed Natural Rhythms",
     introduction: [
           "For most of human history, people lived closely connected to:"
@@ -19002,7 +19154,8 @@ const articlesDataArray = [
   },
   {
     id: 66,
-    title: "Article 66 â€” Why Olive Oil Became One of the Most Important Foods for Simplicity, Balance, and Sustainable Living",
+    img:articleImge65,
+    title: "Why Olive Oil Became One of the Most Important Foods for Simplicity, Balance, and Sustainable Living",
     subtitle: "Modern Life Became Increasingly Complex",
     introduction: [
           "Modern society often encourages:"
@@ -19385,7 +19538,8 @@ const articlesDataArray = [
   },
   {
     id: 67,
-    title: "Article 67 â€” Why Olive Oil Became One of the Most Important Foods for Building a Life Around Health Rather Than Disease",
+    img:articleImge66,
+    title: "Why Olive Oil Became One of the Most Important Foods for Building a Life Around Health Rather Than Disease",
     subtitle: "Modern Healthcare Often Begins Too Late",
     introduction: [
           "Modern medicine has achieved extraordinary progress in:"
@@ -19742,7 +19896,8 @@ const articlesDataArray = [
   },
   {
     id: 68,
-    title: "Article 68 â€” Why Olive Oil Became One of the Most Important Foods for Preserving Human Traditions Across Time",
+    img:articleImge67,
+    title: "Why Olive Oil Became One of the Most Important Foods for Preserving Human Traditions Across Time",
     subtitle: "Traditions Survive Through Daily Repetition",
     introduction: [
           "Civilizations are not preserved only through:"
@@ -20112,7 +20267,8 @@ const articlesDataArray = [
   },
   {
     id: 69,
-    title: "Article 69 â€” Why Olive Oil Became One of the Most Important Foods for Preserving Authentic Human Living",
+    img:articleImge68,
+    title: "Why Olive Oil Became One of the Most Important Foods for Preserving Authentic Human Living",
     subtitle: "Modern Life Became Increasingly Artificial",
     introduction: [
           "Over the past century, human life changed dramatically.",
@@ -20493,7 +20649,8 @@ const articlesDataArray = [
   },
   {
     id: 70,
-    title: "Article 70 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Balance",
+    img:articleImge69,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Balance",
     subtitle: "Human Health Often Fails at Extremes",
     introduction: [
           "Throughout history, societies repeatedly struggled with:"
@@ -20854,7 +21011,8 @@ const articlesDataArray = [
   },
   {
     id: 71,
-    title: "Article 71 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Value of Slowness",
+    img:articleImge70,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Value of Slowness",
     subtitle: "Modern Life Moves Faster Than Human Biology",
     introduction: [
           "Modern civilization increasingly rewards:"
@@ -21226,7 +21384,8 @@ const articlesDataArray = [
   },
   {
     id: 72,
-    title: "Article 72 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Endurance",
+    img:articleImge71,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Endurance",
     subtitle: "Human Survival Has Always Required Endurance",
     introduction: [
           "Throughout history, civilizations survived not through:"
@@ -21592,7 +21751,8 @@ const articlesDataArray = [
   },
   {
     id: 73,
-    title: "Article 73 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Sustainability",
+    img:articleImge72,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Sustainability",
     subtitle: "Human Civilization Depends on Sustainability",
     introduction: [
           "Every civilization throughout history faced the same question: how can societies survive not only today â€” but for generations to come?",
@@ -21945,7 +22105,8 @@ const articlesDataArray = [
   },
   {
     id: 74,
-    title: "Article 74 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Patience",
+    img:articleImge73,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Patience",
     subtitle: "Modern Society Often Rewards Immediate Results",
     introduction: [
           "Modern life increasingly encourages:"
@@ -22293,7 +22454,8 @@ const articlesDataArray = [
   },
   {
     id: 75,
-    title: "Article 75 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Longevity Beyond Lifespan",
+    img:articleImge74,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Longevity Beyond Lifespan",
     subtitle: "Living Longer Is Not the Same as Living Better",
     introduction: [
           "Modern medicine has helped humans extend lifespan dramatically.",
@@ -22659,7 +22821,8 @@ const articlesDataArray = [
   },
   {
     id: 76,
-    title: "Article 76 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Civilization Through Nourishment",
+    img:articleImge75,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Civilization Through Nourishment",
     subtitle: "Civilization Is Built Through Nourishment, Not Only Power",
     introduction: [
           "Throughout history, many societies measured success through:"
@@ -23049,7 +23212,8 @@ const articlesDataArray = [
   },
   {
     id: 77,
-    title: "Article 77 â€” Why Olive Oil Became One of the Most Important Foods for Connecting Human Health With Human Culture",
+    img:articleImge76,
+    title: "Why Olive Oil Became One of the Most Important Foods for Connecting Human Health With Human Culture",
     subtitle: "Human Health Has Never Been Separate From Culture",
     introduction: [
           "Modern society often treats health as:"
@@ -23442,7 +23606,8 @@ const articlesDataArray = [
   },
   {
     id: 78,
-    title: "Article 78 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Harmony",
+    img:articleImge77,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Harmony",
     subtitle: "Human Life Depends on Balance Between Many Systems",
     introduction: [
           "Health is not created by one single factor.",
@@ -23606,7 +23771,8 @@ const articlesDataArray = [
   },
   {
     id: 79,
-    title: "Article 79 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Continuity",
+    img:articleImge78,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Continuity",
     subtitle: "Human Civilization Depends on Continuity",
     introduction: [
           "Many things in human life are temporary:"
@@ -23973,7 +24139,8 @@ const articlesDataArray = [
   },
   {
     id: 80,
-    title: "Article 80 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Wisdom",
+    img:articleImge79,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Wisdom",
     subtitle: "Human Knowledge Does Not Always Lead to Wisdom",
     introduction: [
           "Modern civilization possesses extraordinary knowledge involving:",
@@ -24338,7 +24505,8 @@ const articlesDataArray = [
   },
   {
     id: 81,
-    title: "Article 81 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Legacy",
+    img:articleImge80,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Legacy",
     subtitle: "Human Beings Desire to Leave Something Meaningful Behind",
     introduction: [
           "Throughout history, people searched for ways to create:",
@@ -24681,7 +24849,8 @@ const articlesDataArray = [
   },
   {
     id: 82,
-    title: "Article 82 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Responsibility",
+    img:articleImge81,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Responsibility",
     subtitle: "Every Civilization Depends on Responsibility",
     introduction: [
           "Human societies survive only when individuals accept responsibility for:",
@@ -25042,7 +25211,8 @@ const articlesDataArray = [
   },
   {
     id: 83,
-    title: "Article 83 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Gratitude",
+    img:articleImge82,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Gratitude",
     subtitle: "Human Life Depends on Countless Invisible Gifts",
     introduction: [
           "Modern societies often move so quickly that people forget how deeply human life depends on:",
@@ -25402,7 +25572,8 @@ const articlesDataArray = [
   },
   {
     id: 84,
-    title: "Article 84 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Simplicity in a Complicated World",
+    img:articleImge83,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Simplicity in a Complicated World",
     subtitle: "Human Life Became Increasingly Complicated",
     introduction: [
           "Modern civilization created extraordinary advances involving:",
@@ -25767,7 +25938,8 @@ const articlesDataArray = [
   },
   {
     id: 85,
-    title: "Article 85 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Natural Living",
+    img:articleImge84,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Natural Living",
     subtitle: "Human Biology Was Built for Natural Environments",
     introduction: [
           "For most of human history, people lived closely connected to:",
@@ -26124,7 +26296,8 @@ const articlesDataArray = [
   },
   {
     id: 86,
-    title: "Article 86 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Restraint",
+    img:articleImge85,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Restraint",
     subtitle: "Human Civilization Often Struggles With Excess",
     introduction: [
           "Throughout history, many societies eventually faced problems caused by:",
@@ -26475,7 +26648,8 @@ const articlesDataArray = [
   },
   {
     id: 87,
-    title: "Article 87 â€” Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Stability",
+    img:articleImge86,
+    title: "Why Olive Oil Became One of the Most Important Foods for Teaching Humanity the Meaning of Stability",
     subtitle: "Human Life Depends on Stability More Than Intensity",
     introduction: [
           "Modern society often celebrates:",
@@ -27362,7 +27536,7 @@ useEffect(()=>{
                 return (
 
                 <div className='brJournalCardSecItem' key={index}>
-                    <div className='cardSecItemImg' style={{ backgroundImage: `url(${brimg1})` }}></div>
+                    <div className='cardSecItemImg' style={{ backgroundImage: `url(${item.img})` }}></div>
 
                     <div className='cardSecItemDetails'>
                         {/* <p>{item.cardDate}</p> */}
@@ -27407,7 +27581,7 @@ useEffect(()=>{
                 {/* Header */}
                 <div className="articleHeader">
                     <h1 className="articleTitle">{fullarticalD.title}</h1>
-                    <div className='articaleImg' style={{ backgroundImage: `url(${brimg1})` }}></div>
+                    <div className='articaleImg' style={{ backgroundImage: `url(${fullarticalD.img})` }}></div>
                     {fullarticalD.subtitle && (
                         <h2 className="articleSubtitle">   {fullarticalD.subtitle}</h2> )}
                 </div>

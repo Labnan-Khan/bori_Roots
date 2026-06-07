@@ -11,7 +11,7 @@ function Contact() {
     const[submitBtn, setSubmitBtn] = useState(false)
     const [errors, setErrors] = useState({  userName: false,  companyName: false,  userEmail: false,  firstDropDown: false,});
     const hasError = Object.values(errors).some(Boolean);
-
+    
     const[userName, setUserName] = useState("")
     const[companyName, setCompanyName] = useState("")
     const[userEmail, setUserEmail] = useState("")

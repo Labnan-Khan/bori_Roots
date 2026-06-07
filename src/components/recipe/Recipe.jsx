@@ -2816,7 +2816,9 @@ function Recipe() {
                                 
                                 <div className='headerBottom'>
                                     <h4>{fullRecipeD.cardHeading}</h4>
+                                    {/* <div className='headerImg' style={{ backgroundImage: `url(${img2})` }}></div> */}
                                     <p>{fullRecipeD.cardParagraph}</p>
+                                    <div className='headerImgMobile' style={{ backgroundImage: `url(${img2})` }}></div>
                                     <div className='headerBottomIcon'>
                                         <div>
                                             <span><GiSandsOfTime /></span> 
