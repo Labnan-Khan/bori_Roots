@@ -27557,9 +27557,9 @@ useEffect(()=>{
 
     {/* <div className='ShowFullDetail open'> */}
     {/* <div className= {`ShowFullDetail ${showFullArticalPage? "showFullArticalPage" : ""}`} style={{ backgroundImage: `url(${brimg1})` }} > */}
-    <div className= {`ShowFullDetail ${showFullArticalPage? "showFullArticalPage" : ""}`}  >
-            <div className='gobackBtn' onClick={()=> setShowFullArticalPage(false)}><TiArrowLeftThick /></div>
-            <div className='articalBox'>
+    <div className= {`ShowFullDetail ${showFullArticalPage? "showFullArticalPage" : ""}`}  onClick={()=> setShowFullArticalPage(false)}>
+            {/* <div className='gobackBtn' onClick={()=> setShowFullArticalPage(false)}><TiArrowLeftThick /></div> */}
+            <div className='articalBox' onClick={(e)=>  e.stopPropagation()}>
                 
                 <div className='articalRightSec'>
                     
