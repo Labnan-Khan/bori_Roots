@@ -27523,11 +27523,11 @@ useEffect(()=>{
         <h1 className='startingH1tag'>Bori Roots Journal</h1>
         <p className='ptagAfterH1tag'>Stories, memories, and olive-growing wisdom from the heart of Balochistan.</p>
 
-        <div className='brCategaroBtnSec'>
+        {/* <div className='brCategaroBtnSec'>
             <div className={`${articalCategoreyBtn == "journal"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("journal")}>BoriRoots Journal</div>
             <div className={`${articalCategoreyBtn == "landscapes"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("landscapes")}>Balochistan Landscapes</div>
             <div className={`${articalCategoreyBtn == "academy"? " active": "" }`} onClick={()=> setArticalCategoreyBtn("academy")}>Olive Academy</div>
-        </div>
+        </div> */}
 
         <div className='brJournalCardSec'>
 

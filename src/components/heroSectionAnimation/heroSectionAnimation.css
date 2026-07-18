@@ -1,0 +1,97 @@
+.herosectionAnimation {
+    width: 90%;
+    margin: 0 auto 100px;
+    
+}
+
+.homepageheroFooter {
+    
+
+    
+    width: 100%;
+    /* display:flex ; */
+    gap: 6px;
+     /* animation: scrollTesti 4s linear infinite; */
+     /* background-color: #8D1FD4; */
+     overflow: hidden; /*add this*/
+     box-sizing: content-box;
+     /* background-color: white; */
+     border-radius: 20px;
+}
+
+.heroSectionFooter {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 6px;
+    width: max-content;
+    animation: marquee 40s linear infinite;
+}
+
+/* .heroSectionFooter:hover {
+    animation-play-state: paused;
+} */
+
+.heroSectionFooter  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid white; */
+    padding: 5px 20px;
+    width: 250px;
+    gap: 10px;
+    /* background-color: #650bbe; */
+    border-radius: 20px;
+    border: 2px solid rgba(146, 145, 145, 0);
+    /* border-left: 2px solid #042f22; */
+    flex-shrink: 0;
+    box-sizing: content-box;
+    backdrop-filter: brightness(1) blur(10px)  saturate(100%);
+    /* box-shadow: inset 0px 0px 30px #efeef073; */
+    position: relative;
+}
+
+.heroSectionFooter  div::after{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 2px;
+    left: 0px;
+    top: opx;
+    background-color: #042f2268;
+}
+
+.heroSectionFooter  div span{
+    color: rgb(133, 113, 5);
+    font-size: 40px;
+    /* background-color: rgba(133, 114, 6, 0.277); */
+    /* border: 1px solid rgb(106, 91, 4); */
+    /* box-shadow: inset 0px 0px 10px rgba(161, 137, 1, 0.312); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+}
+
+.heroSectionFooter  div h3{
+    color: #09684b;
+    font-size: 19px;
+}
+.heroSectionFooter div p{
+    color: rgb(124, 123, 123);
+    font-size: 13px;
+}
+
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
