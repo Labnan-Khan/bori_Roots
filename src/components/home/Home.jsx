@@ -60,6 +60,10 @@ function Home() {
 
     const newArticleSectionImg = [newArticleImg1,newArticleImg2, newArticleImg3]
     const [newArticleImg,setNewArticleImg] = useState(0)
+
+    const [ productCollectionItemHover, setProductCollectionItemHover] = useState(0)
+    const [ activeProductItemAnimation, setPctiveProductItemAnimation] = useState(false)
+
   return (
     <div className='home'>
 
@@ -168,6 +172,27 @@ function Home() {
             </div>
 
         </div>
+
+        {/* ProductCollection */}
+        <div className='homePageProductCollection'>
+            <div className='ProductCollectionLeftSection'>
+                <h5>THE COLLECTION</h5>
+                <h1>From Our Valley, For Your Table</h1>
+                <p>Every bottle begins in the wild groves of Balochistan, where ancient trees flourish among the mountains. Hand-harvested at peak ripeness and cold-pressed with care, our olives preserve the land's rich heritage and natural purity. Discover the taste of a timeless tradition.</p>
+            </div>
+
+            <div className={`ProductCollectionRightSection ${activeProductItemAnimation? "active": ""}`}>
+                <div className={`rightSectionItem ${productCollectionItemHover == 0 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(0); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                <div className={`rightSectionItem ${productCollectionItemHover == 1 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(1); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                <div className={`rightSectionItem ${productCollectionItemHover == 2 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(2); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                <div className={`rightSectionItem ${productCollectionItemHover == 3 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(3); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                <div className={`rightSectionItem ${productCollectionItemHover == 4 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(4); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                <div className={`rightSectionItem ${productCollectionItemHover == 5 && activeProductItemAnimation? "active" : ""}`} onMouseEnter={()=> {setProductCollectionItemHover(5); setPctiveProductItemAnimation(true)}} onMouseLeave={()=> setPctiveProductItemAnimation(false)}></div>
+                
+            </div>
+
+        </div>
+
         {/* new articles */}
         <div className='aboutArticles'>
             <h1>Knowledge You Can </h1>
@@ -193,6 +218,7 @@ function Home() {
                 </div>
             </div>
         </div>
+
                 {/* recipesection */}
         <div className='recipiSection' ref={sectionRef}>
             <div className='recipeUpperSection'>
